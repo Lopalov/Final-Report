@@ -11,7 +11,7 @@ To achieve a streamlined user experience, we have researched two alternative way
 
 When defining our solution, we started with the idea of a stand-alone web-application like Google Docs and Word Online but then for TeachBooks. Almost everyone has already worked with programs like these, so even for non-technical people it would be a streamlined and nice user experience. There is no installation needed, and distribution is as simple as sharing a single link to the website.
 
-However, when researching this option, we came across two core problems. Firstly, hosting a web-application like this would mean that we would need a free or cheap provider to meet our client requirements (see must haves in [Requirements](../requirements/overview.md)). While in a previous section ref{sec:github} we have defined that GitHub pages is such a platform, our second problem remained.&#x20;
+However, when researching this option, we came across two core problems. Firstly, hosting a web-application like this would mean that we would need a free or cheap provider to meet our client requirements (see must haves in [Requirements](../requirements/overview.md)).While GitHub pages {cite}`GitHubPages` is such a platform, our second problem remained.&#x20;
 
 The primary drawback of creating a stand-alone web application is that we would be reinventing the wheel as TeachBooks books are already hosted somewhere and they already have a simple user interface.&#x20;
 
