@@ -21,17 +21,17 @@ parts:
       - file: requirements/non-functional.md
       - file: requirements/constraints.md
       - file: requirements/status.md
-    - file: solution/overview.md
-      sections:
-      - file: solution/design.md
-      - file: solution/architecture.md
-      - file: solution/choices.md
     - file: research/overview.md
       sections:
       - file: research/markdown_conversion.md
       - file: research/sphinx.md
       - file: research/toolbar.md
       - file: research/github.md
+    - file: solution/overview.md
+      sections:
+      - file: solution/design.md
+      - file: solution/architecture.md
+      - file: solution/choices.md
     - file: development/overview.md
       sections:
       - file: development/methodology.md
