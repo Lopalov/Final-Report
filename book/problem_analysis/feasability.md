@@ -5,11 +5,11 @@ There are a couple of questions we must answer in order to consider the project 
 
 **Can we implement a WYSIWYG (What You See Is What You Get) editor in the browser?**
 
-There are frameworks available to parse Markdown and to create a browser-based editor. An example of this is ProseMirror \cite{prosemirrorProseMirror}, an extensible JavaScript framework that allows developers to build WYSIWYG editors relatively easily. State management and user typing interactions are handled by ProseMirror. It is also possible to convert from Markdown to ProseMirror and vice versa. An example is already shown in the ProseMirror documentation \cite{prosemirrorProseMirrorMarkdown}. This only handles Commonmark, a subset of MyST, which is the Markdown dialect used by TeachBooks. Editing and rendering extended content from the browser, like embedded equations using LaTeX, is more challenging. However, these are not hard requirements for the client. An acceptable compromise is to just be able to the basic elements, like discussed in \ref{chap:requirements}
+There are frameworks available to parse Markdown and to create a browser-based editor. An example of this is ProseMirror {cite}`prosemirrorProseMirror`, an extensible JavaScript framework that allows developers to build WYSIWYG editors relatively easily. State management and user typing interactions are handled by ProseMirror. It is also possible to convert from Markdown to ProseMirror and vice versa. An example is already shown in the ProseMirror documentation {cite}`prosemirrorProseMirrorMarkdown`. This only handles Commonmark, a subset of MyST, which is the Markdown dialect used by TeachBooks. Editing and rendering extended content from the browser, like embedded equations using LaTeX, is more challenging. However, these are not hard requirements for the client. An acceptable compromise is to just be able to the basic elements, like discussed in [Requirements](../../requirements/overview.md)
 
 **Can we integrate such an editor into the Git/GitHub workflow in the browser, without resorting to a server-side solution (per the request of the client)?**
 
-In order for the application to significantly enhance the workflow, users should not have to manually edit the files in GitHub for simple tasks. Therefore, the solution needs to integrate with GitHub to edit documents. This can be done using the GitHub API \cite{githubRESTPullRequests}, where the user authorizes the application to act on their behalf \cite{githubGeneratingUser}. Editing files is also supported \cite{githubRepositoryContents}.
+In order for the application to significantly enhance the workflow, users should not have to manually edit the files in GitHub for simple tasks. Therefore, the solution needs to integrate with GitHub to edit documents. This can be done using the GitHub API {cite}`githubRESTPullRequests`, where the user authorizes the application to act on their behalf {cite}`githubGeneratingUser`. Editing files is also supported {cite}`githubRepositoryContents`.
 
 **Can we complete the project in time?**
 
@@ -17,7 +17,7 @@ A WYSIWYG editor is a complex piece of software. This, combined with GitHub inte
 
 **How do we ensure we build an inclusive and accessible user experience?**
 
-As Godwin-Jones \cite{godwinjones2001accessibility} notes, accessibility is important to make sure that everyone can contribute, no matter their abilities. This includes colorblind people, or screen reader users. Therefore, we need to consider whether the project is accessible to anyone who wants to contribute, so TeachBooks’ mission can reach as many people as possible. Technical considerations include accounting for contrast, being keyboard-navigable and screen reader friendly \cite\[Chapter~1~and~2]{yesilada2019web}.
+As Godwin-Jones {cite}`godwinjones2001accessibility` notes, accessibility is important to make sure that everyone can contribute, no matter their abilities. This includes colorblind people, or screen reader users. Therefore, we need to consider whether the project is accessible to anyone who wants to contribute, so TeachBooks’ mission can reach as many people as possible. Technical considerations include accounting for contrast, being keyboard-navigable and screen reader friendly {cite}`yesilada2019web`.
 
 **How do we ensure the interface is intuitive?**
 
