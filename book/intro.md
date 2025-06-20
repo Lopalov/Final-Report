@@ -1,4 +1,5 @@
-# **TeachBooks Wizard**
++++
+# TeachBooks Wizard
 
 A visual editor for creating and editing TeachBooks
 
