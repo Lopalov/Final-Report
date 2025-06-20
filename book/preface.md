@@ -11,4 +11,12 @@ We would like to thank our TA, Diego Becerra Merodio, for guidance throughout th
 
 Delft 20th of June, 2025
 
-Amadou Merkx  Adrian Todorov  Lachezar Topalov  Leander Bindt  Nathan Huisman
+Amadou Merkx &#x20;
+
+Adrian Todorov &#x20;
+
+Lachezar Topalov &#x20;
+
+Leander Bindt &#x20;
+
+Nathan Huisman
