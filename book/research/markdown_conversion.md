@@ -15,8 +15,18 @@ ProseMirror had an example on their website, which demoed conversion between Pro
 
 To summarize, to edit the MyST source code in a WYSIWYG way, we first need to parse the MyST source code into a MyST AST. We convert this MyST AST to the ProseMirror AST. The user can then edit the document. We then convert the ProseMirror AST back into the MyST AST, which we then serialize to the new, edited MyST source.
 
+
+
+```{image} https://github.com/Lopalov/Final-Report/blob/main/book/figures/pics/AST_figure.png?raw=true
+:class: 
+:width: 618px
+:align: left
+:title: 
+:alt: 
+```
+
 ### Converting between the ProseMirror and MyST ASTs
 
-ProseMirror handles links, bold or emphasized text and other 'marks', as they are called by the ProseMirror documentation, differently than the MyST AST. Instead of having an 'emphasis' or a 'strong' node in the AST, ProseMirror has text nodes that have any number of marks (Figure \ref{fig:ast-comparison}).&#x20;
+ProseMirror handles links, bold or emphasized text and other ‘marks’, as they are called by the ProseMirror documentation, differently than the MyST AST. Instead of having an ‘emphasis’ or a ‘strong’ node in the AST, ProseMirror has text nodes that have any number of marks (Figure \ref{fig:ast-comparison}).&#x20;
 
-Converting from ProseMirror back to MyST is more difficult, the algorithm walks the text nodes from left to right, keeping track of where the marks start and end. If one mark contains another --- like how in figure \ref{fig:ast-comparison}, the 'strong' mark spans the first and second text node in the ProseMirror AST, while the 'emphasis' mark only spans the second node --- the mark spanning the most text nodes becomes the parent of the other. This way, we convert the flat structure of the ProseMirror AST back into the recursive structure of the MyST AST.
+Converting from ProseMirror back to MyST is more difficult, the algorithm walks the text nodes from left to right, keeping track of where the marks start and end. If one mark contains another --- like how in figure \ref{fig:ast-comparison}, the ‘strong’ mark spans the first and second text node in the ProseMirror AST, while the ‘emphasis’ mark only spans the second node --- the mark spanning the most text nodes becomes the parent of the other. This way, we convert the flat structure of the ProseMirror AST back into the recursive structure of the MyST AST.
