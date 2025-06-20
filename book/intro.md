@@ -1,7 +1,8 @@
-+++
 # **TeachBooks Wizard**
 
 A visual editor for creating and editing TeachBooks
+
+June 20, 2025
 
 ## Authors
 
@@ -16,7 +17,3 @@ Client: Tom van Woudenberg
 Coach: Sefan Hugtenburg
 
 Coordinator: Huijuan Wang
-
-
-
-June 20 2025
