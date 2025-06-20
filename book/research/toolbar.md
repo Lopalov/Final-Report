@@ -7,10 +7,10 @@ Before building the toolbar, we looked at how other products handle it to make s
 
 We deliberately adopted a familiar toolbar structure for several reasons:
 
-*   **Designed for quick understanding **- Users already understand standard layouts (e.g., formatting buttons on the left, action items like \`\`Save'' on the right).
-*   **Consistency **-** **Similar icons (e.g., bold (**B**), italic (*I*), lists) minimize learning curves.
-*   **Functionality Expectations **-** **Users expect basic features (text styling, undo/redo) to be readily accessible.
-*   **Accessibility **- Established toolbars often adhere to accessibility best practices (e.g., keyboard navigation, icon labels).
+*   \*\*Designed for quick understanding \*\*- Users already understand standard layouts (e.g., formatting buttons on the left, action items like \`\`Save’’ on the right).
+*   \*\*Consistency **-** \*\*Similar icons (e.g., bold (**B**), italic (*I*), lists) minimize learning curves.
+*   \*\*Functionality Expectations **-** \*\*Users expect basic features (text styling, undo/redo) to be readily accessible.
+*   \*\*Accessibility \*\*- Established toolbars often adhere to accessibility best practices (e.g., keyboard navigation, icon labels).
 
 We followed these patterns instead of reinventing the wheel, so the toolbar feels intuitive—not just different for the sake of it.
 
@@ -18,13 +18,13 @@ We followed these patterns instead of reinventing the wheel, so the toolbar feel
 
 For development, we chose **SolidJS** due to its:
 
-*   **Performance **- Unlike React’s virtual DOM or Vue’s reactivity system, Solid.js compiles your code to targeted DOM updates without the diffing step.
-*   **Fine-Grained Reactivity **- While Svelte compiles components and Angular runs change detection, Solid’s reactivity updates only the affected DOM nodes.
+*   **Performance** - Unlike React’s virtual DOM or Vue’s reactivity system, Solid.js compiles your code to targeted DOM updates without the diffing step.
+*   **Fine-Grained Reactivity** - While Svelte compiles components and Angular runs change detection, Solid’s reactivity updates only the affected DOM nodes.
 
 However, compared to other frameworks, SolidJS has some drawbacks:
 
-*   **Smaller Community **- Solid has a smaller ecosystem and fewer third-party libraries than React or Vue.
-*   **Less Mature Tooling **- Some development tools and integrations are less polished compared to more established frameworks.
+*   **Smaller Community** - Solid has a smaller ecosystem and fewer third-party libraries than React or Vue.
+*   **Less Mature Tooling** - Some development tools and integrations are less polished compared to more established frameworks.
 
 Considering these pros and cons, SolidJS provides the best balance of performance and reactivity for our project’s needs.
 
@@ -38,7 +38,7 @@ This combination of proven design patterns and efficient technology resulted in 
 
 ## First mock-ups vs Final Toolbar
 
-The first mock-ups of the toolbar are shown in [Appendix C](../appendices/c.md). Several designs and layouts were explored; however, many of them include functionalities that are not supported by TeachBooks and MyST. The final design, shown below ([Figure 4.2](../figures/pics/toolbar.png)) and largely based on our full toolbar mock-up ([Appendix A Figure 13](../figures/pics/pic12)), is similar but includes some changes: certain buttons, such as the format painter and help button, have been reordered, while others—like underline and font size—were removed due to lack of support.
+The first mock-ups of the toolbar are shown in Section~\ref{sec:first\_ui\_mockups} of the Appendix. Several designs and layouts were explored; however, many of them include functionalities that are not supported by TeachBooks and MyST. The final design, shown below (Figure ~\ref{fig:toolbar\_pic}) and largely based on our full toolbar mock-up (Figure ~\ref{fig:pic12}), is similar but includes some changes: certain buttons, such as the format painter and help button, have been reordered, while others—like underline and font size—were removed due to lack of support.
 
 ```{image} https://github.com/Lopalov/Final-Report/blob/main/book/figures/pics/toolbar.png?raw=true
 :class: 
