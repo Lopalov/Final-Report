@@ -15,6 +15,7 @@ ProseMirror had an example on their website, which demoed conversion between Pro
 
 To summarize, to edit the MyST source code in a WYSIWYG way, we first need to parse the MyST source code into a MyST AST. We convert this MyST AST to the ProseMirror AST. The user can then edit the document. We then convert the ProseMirror AST back into the MyST AST, which we then serialize to the new, edited MyST source.
 
+### Converting between the ProseMirror and MyST ASTs
 
 
 ```{image} https://github.com/Lopalov/Final-Report/blob/main/book/figures/pics/AST_figure.png?raw=true
@@ -29,7 +30,6 @@ To summarize, to edit the MyST source code in a WYSIWYG way, we first need to pa
 
 Figure 4.1: Comparison of MyST and ProseMirror ASTs for the text \*\*Bold, \*bold and italic\*\*\*. While in MyST, text styling modifiers are nodes in the syntax tree, in ProseMirror, they are attributes on text nodes, called marks.
 
-### Converting between the ProseMirror and MyST ASTs
 
 ProseMirror handles links, bold or emphasized text and other ‘marks’, as they are called by the ProseMirror documentation, differently than the MyST AST. Instead of having an ‘emphasis’ or a ‘strong’ node in the AST, ProseMirror has text nodes that have any number of marks ([Figure 4.1](../figures/pics/AST_figure.png)).&#x20;
 
