@@ -7,10 +7,10 @@ Before building the toolbar, we looked at how other products handle it to make s
 
 We deliberately adopted a familiar toolbar structure for several reasons:
 
-*   \*\*Designed for quick understanding \*\*- Users already understand standard layouts (e.g., formatting buttons on the left, action items like \`\`Save’’ on the right).
-*   \*\*Consistency **-** \*\*Similar icons (e.g., bold (**B**), italic (*I*), lists) minimize learning curves.
-*   \*\*Functionality Expectations **-** \*\*Users expect basic features (text styling, undo/redo) to be readily accessible.
-*   \*\*Accessibility \*\*- Established toolbars often adhere to accessibility best practices (e.g., keyboard navigation, icon labels).
+*   **Designed for quick understanding** - Users already understand standard layouts (e.g., formatting buttons on the left, action items like \`\`Save’’ on the right).
+*   **Consistency** - Similar icons (e.g., bold (**B**), italic (*I*), lists) minimize learning curves.
+*   **Functionality Expectations** - Users expect basic features (text styling, undo/redo) to be readily accessible.
+*   **Accessibility** - Established toolbars often adhere to accessibility best practices (e.g., keyboard navigation, icon labels).
 
 We followed these patterns instead of reinventing the wheel, so the toolbar feels intuitive—not just different for the sake of it.
 
