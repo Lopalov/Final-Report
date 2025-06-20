@@ -1,1 +1,4 @@
++++
 # Research
+
+This chapter covers the research that was done at the start of the study to determine the technologies that would be used to aid implementing the editor. First section \ref{sec:feasibility} will highlight the research that was done to determine the feasibility of the project. Then section \ref{sec:risk} will cover the risks to the project that were considered, and their proposed mitigation. The subsequent sections detail our technical investigations: Section~\ref{sec:converting} covers Markdown/MyST conversion, Section~\ref{sec:sphinx} explores Sphinx integration approaches, Section\` justifies our editor interface design, and Section~\ref{sec:github} documents GitHub integration research.
