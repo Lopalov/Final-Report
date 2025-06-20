@@ -25,6 +25,10 @@ To summarize, to edit the MyST source code in a WYSIWYG way, we first need to pa
 :alt: 
 ```
 
+
+
+Figure 4.1: Comparison of MyST and ProseMirror ASTs for the text \*\*Bold, \*bold and italic\*\*\*. While in MyST, text styling modifiers are nodes in the syntax tree, in ProseMirror, they are attributes on text nodes, called marks.
+
 ### Converting between the ProseMirror and MyST ASTs
 
 ProseMirror handles links, bold or emphasized text and other ‘marks’, as they are called by the ProseMirror documentation, differently than the MyST AST. Instead of having an ‘emphasis’ or a ‘strong’ node in the AST, ProseMirror has text nodes that have any number of marks (Figure \ref{fig:ast-comparison}).&#x20;
