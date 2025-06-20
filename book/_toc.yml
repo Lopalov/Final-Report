@@ -31,7 +31,7 @@ parts:
       sections:
       - file: solution/design.md
       - file: solution/architecture.md
-      - file: solution/choices.md
+      - file: solution/infrastructure.md
     - file: development/overview.md
       sections:
       - file: development/methodology.md
