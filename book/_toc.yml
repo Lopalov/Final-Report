@@ -4,26 +4,48 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-    - file: some_content/overview.md
+    - file: preface.md
+    - file: summary.md
+    - file: introduction.md
+    - file: problem_analysis/overview.md
       sections:
-      - file: some_content/text_and_code.ipynb
-    - file: exercises.md
+      - file: problem_analysis/context.md
+      - file: problem_analysis/objectives.md
+      - file: problem_analysis/scope.md
+      - file: problem_analysis/feasability.md
+      - file: problem_analysis/risk.md
+    - file: requirements/overview.md
       sections:
-      - file: exercises/001.md
-      - file: exercises/002.md
-      - file: exercises/003.md
-      - file: exercises/004.md
-      - file: exercises/005.md
-      - file: exercises/006.md
-      - file: exercises/summary
-    - file: syntax_exercises.md
+      - file: requirements/creation.md
+      - file: requirements/functional.md
+      - file: requirements/non-functional.md
+      - file: requirements/constraints.md
+      - file: requirements/status.md
+    - file: solution/overview.md
       sections:
-      - file: syntax_exercises/007.md
-      - file: syntax_exercises/008.md
-      - file: syntax_exercises/009.md
-      - file: syntax_exercises/010.md
-      - file: syntax_exercises/011.md
-      - file: syntax_exercises/012.md
+      - file: solution/design.md
+      - file: solution/architecture.md
+      - file: solution/choices.md
+    - file: research/overview.md
+      sections:
+      - file: research/markdown_conversion.md
+      - file: research/sphinx.md
+      - file: research/toolbar.md
+      - file: research/github.md
+    - file: development/overview.md
+      sections:
+      - file: development/methodology.md
+      - file: development/testing.md
+    - file: ethics/overview.md
+      sections:
+      - file: ethics/cathegory1.md
+      - file: ethics/cathegory2.md
+    - file: conclusion.md
     - file: references.md
-    - file: changelog.md
+    - file: appendices/overview.md
+      sections:
+      - file: appendices/a.md
+      - file: appendices/b.md
+      - file: appendices/c.md
+      - file: appendices/d.md
     - file: credits.md
