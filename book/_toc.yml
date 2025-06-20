@@ -48,4 +48,3 @@ parts:
       - file: appendices/b.md
       - file: appendices/c.md
       - file: appendices/d.md
-    - file: credits.md
