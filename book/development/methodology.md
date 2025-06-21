@@ -13,7 +13,7 @@ Monday is the default day to carry out all meetings, as it is the beginning of t
 
 This structure has been chosen for the convenience it brings to all parties – the regularity allows for a continuous stream of information between the team, the client and the TA.
 
-After the midterm presentation, we received valuable feedback for improving the planning part of our project. It was suggested to make our meeting agenda's en notes more visible to the TA and other course staff, so we can better demonstrate our planning process and organizational efforts. Although we were already creating meeting agendas and notes since the start of the project, after this feedback we began using them more as the core of our meetings. To provide a clear overview, all agendas and meeting notes are now presented in the project's GitLab wiki \cite{GitLabWiki}, creating an accessible archive of our organizational workflow.
+After the midterm presentation, we received valuable feedback for improving the planning part of our project. It was suggested to make our meeting agenda's en notes more visible to the TA and other course staff, so we can better demonstrate our planning process and organizational efforts. Although we were already creating meeting agendas and notes since the start of the project, after this feedback we began using them more as the core of our meetings. To provide a clear overview, all agendas and meeting notes are now presented in the project's GitLab wiki {cite}`GitLabWiki`, creating an accessible archive of our organizational workflow.
 
 ## Communication
 
