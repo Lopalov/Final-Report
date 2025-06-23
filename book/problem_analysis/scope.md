@@ -1,5 +1,5 @@
 +++
-# Scope of the problem
+# Scope of the Problem
 
 This project focuses exclusively on simplifying the content editing and version control aspects of TeachBooks. It is not intended to replace or replicate all functionality of the GitHub infrastructure, nor does it include server-side components such as deployment pipelines, PDF generation, or advanced theming.
 
