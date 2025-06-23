@@ -3,7 +3,7 @@
 
 This section is about the product design of our embedded editor. The main goal was to create an intuitive and accessible application that seamlessly integrates into the TeachBooks ecosystem. To achieve this, we developed a WYSIWYG editor, heavily inspired by popular word processors like Google Docs and Microsoft Word. This approach lowers the technical barrier for content creators, allowing them to focus on the material rather than on markup syntax.
 
-A key requirement was that the editor feel like a native component of the platform, not an external tool. [Figure 5.1](../figures/pics/finalProduct.md) shows a visual overview of the resulting interface, highlighting the clean layout and familiar, icon-driven toolbar. In the following subsections we discuss the three core design choices we made during the project:
+A key requirement was that the editor feel like a native component of the platform, not an external tool. [Figure 5.1](../figures/pics/finalProduct.png) shows a visual overview of the resulting interface, highlighting the clean layout and familiar, icon-driven toolbar. In the following subsections we discuss the three core design choices we made during the project:
 
 ```{image} https://github.com/Lopalov/Final-Report/blob/main/book/figures/pics/finalProduct.png?raw=true
 :class: 
