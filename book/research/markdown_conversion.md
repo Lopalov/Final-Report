@@ -5,7 +5,7 @@ The software used by TeachBooks, Jupyter Book, uses a dialect of markdown called
 
 ## Myst/Markdown Parser
 
-First, we needed a way to parse MyST content into an AST (Abstract Syntax Tree). For this we chose the [MystMD](https://mystmd.io "MystMD") parser. This parser is developed by the Jupyter Book team, for use in Jupyter Book 2, it is compatible with Jupyter Book 1, and, right now, the only option to parse MyST in Javascript. MyST outputs an abstract syntax tree that can be turned into HTML, LaTeX and more, or it can be used directly, as in our case. It can also be converted back into markdown.
+First, we needed a way to parse MyST content into an AST (Abstract Syntax Tree). For this we chose the [MystMD](https://mystmd.org "MystMD") parser. This parser is developed by the Jupyter Book team, for use in Jupyter Book 2, it is compatible with Jupyter Book 1, and, right now, the only option to parse MyST in Javascript. MyST outputs an abstract syntax tree that can be turned into HTML, LaTeX and more, or it can be used directly, as in our case. It can also be converted back into markdown.
 
 ## Editor
 
