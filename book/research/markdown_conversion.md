@@ -20,7 +20,7 @@ To summarize, to edit the MyST source code in a WYSIWYG way, we first need to pa
 
 ```{image} https://github.com/Lopalov/Final-Report/blob/main/book/figures/pics/AST_figure.png?raw=true
 :class: 
-:width: 618px
+:width: 100%
 :align: left
 :title: 
 :alt: 
