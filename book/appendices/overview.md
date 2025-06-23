@@ -1,3 +1,4 @@
++++
 # Appendices
 
 ## [Appendix A](./a.md "Appendix A")
@@ -7,3 +8,5 @@
 ## [Appendix C](./c.md "Appendix C")
 
 ## [Appendix D](./d.md "Appendix D")
+
+## [Appendix E](./e.md "Appendix E")
