@@ -1,1 +1,5 @@
 # Reuirements Creation and Refinement
+
+The initial set of requirements was primarily derived from client specifications during our early meetings, where key expectations and needs were expressed. We then supplemented these requirements with our own research and our understanding of what a project of this description should provide and require, and responses to a survey we sent out via the TeachBooks newsletter.
+
+The initial requirements draft underwent iterative refinement through feedback from the client, project coach, and teaching assistant. This process identified two key areas for improvement: many requirements were initially too vague or subjective to be properly validated, and the 'Must Have' category contained items that more appropriately belonged in 'Should Have' or non-functional requirements. The feedback cycle systematically improved both the precision of requirement wording and the accuracy of priority classification, resulting in a more actionable and measurable set of specifications.
