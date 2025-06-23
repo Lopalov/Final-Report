@@ -6,7 +6,7 @@
 
 ```{image} https://github.com/Lopalov/Final-Report/blob/main/book/figures/pics/pic0.png?raw=true
 :class: 
-:width: 631px
+:width: 100%
 :align: left
 :title: 
 :alt: 
@@ -18,7 +18,7 @@ Figure C.1: First draft of where the UI editor would be
 
 ```{image} https://github.com/Lopalov/Final-Report/blob/main/book/figures/pics/pic1.png?raw=true
 :class: 
-:width: 628px
+:width: 100%
 :align: left
 :title: 
 :alt: 
