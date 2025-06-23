@@ -24,7 +24,7 @@ So we went with the completely rendered WYSIWYG editor. Instead of requiring use
 
 ## Familiar Toolbar
 
-The editor’s toolbar is heavily inspired by Google Docs and Word. Because of their enormous user base, almost everyone has experience in at least one of these editors. The icons for formatting options (bold, italic, lists, headings) are standard and easily recognizable. This familiarity aims to make users feel comfortable and productive from their first interaction, minimizing the need for documentation for basic operations ([see Toolbar research](../research/toolbar)).
+The editor’s toolbar is heavily inspired by Google Docs and Word. Because of their enormous user base, almost everyone has experience in at least one of these editors. The icons for formatting options (bold, italic, lists, headings) are standard and easily recognizable. This familiarity aims to make users feel comfortable and productive from their first interaction, minimizing the need for documentation for basic operations (see [Toolbar research](../research/toolbar)).
 
 ## Visual Consistency with TeachBooks
 
