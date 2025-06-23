@@ -38,7 +38,7 @@ This combination of proven design patterns and efficient technology resulted in 
 
 ## First mock-ups vs Final Toolbar
 
-The first mock-ups of the toolbar are shown in Section~\ref{sec:first\_ui\_mockups} of the Appendix. Several designs and layouts were explored; however, many of them include functionalities that are not supported by TeachBooks and MyST. The final design, shown below (Figure ~\ref{fig:toolbar\_pic}) and largely based on our full toolbar mock-up (Figure ~\ref{fig:pic12}), is similar but includes some changes: certain buttons, such as the format painter and help button, have been reordered, while others—like underline and font size—were removed due to lack of support.
+The first mock-ups of the toolbar are shown in [Appendix C](../appendices/c.md). Several designs and layouts were explored; however, many of them include functionalities that are not supported by TeachBooks and MyST. The final design, shown below ([Figure 4.2](../figures/pics/toolbar.png)) and largely based on our full toolbar mock-up ([Figure C.13 in Appendix C](../figures/pics/pic12.png)), is similar but includes some changes: certain buttons, such as the format painter and help button, have been reordered, while others—like underline and font size—were removed due to lack of support.
 
 ```{image} https://github.com/Lopalov/Final-Report/blob/main/book/figures/pics/toolbar.png?raw=true
 :class: 
