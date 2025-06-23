@@ -12,3 +12,12 @@ We would like to thank our TA, Diego Becerra Merodio, for guidance throughout th
 Delft 20th of June, 2025
 
 Amadou Merkx, Adrian Todorov, Lachezar Topalov, Leander Bindt, Nathan Huisman
+
+[^ai_use]: This text was written within the course *Software Project CSE2000* of the faculty *EEMCS* of Delft University of Technology.  
+Total word count: **8850**
+
+In writing this text, we:  
+\- ☐ Did not use generative AI.  
+\- ☐ Used generative AI to generate (parts of) the content of the text. Where applicable, I justified this in a footnote and/or with a literature reference.  
+\- ☑ Used generative AI (for inspiration) to structure the text.  
+\- ☑ Used generative AI to improve the grammar, style, and/or spelling of the text.
