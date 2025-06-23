@@ -1,7 +1,7 @@
 +++
 # GitHub Integration
 
-Since in this project we are merely creating a plugin for the already established ecosystem of TeachBooks, we had to adopt their reliance on GitHub. Thus, a substantial amount of resources was allocated to researching how to properly integrate our application with GitHub. This process was split in two parts — looking into the login procedure and learning about the GitHub API for Repository Access and Commits. These will be explained in Section \ref{sec:login} and Section \ref{sec:repo} respectively.
+Since in this project we are merely creating a plugin for the already established ecosystem of TeachBooks, we had to adopt their reliance on GitHub. Thus, a substantial amount of resources was allocated to researching how to properly integrate our application with GitHub. This process was split in two parts — looking into the login procedure and learning about the GitHub API for Repository Access and Commits. These will be explained in [Login Procedure](#login-procedure) and [Repository Acces and Commits](#repository-access-and-commits) respectively.
 
 ## Login Procedure
 
