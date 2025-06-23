@@ -1,6 +1,6 @@
 # Testing
 
-In this section we will discuss the variety of testing methods we used in this project. First, we will take a look at the frameworks we considered and ultimately chose to employ, as well as the methodology we decided on for testing UI elements in Automatic and Manual Testing. After that, we present the user test we held in the last weeks of the project.
+In this section we will discuss the variety of testing methods we used in this project. First, we will take a look at the frameworks we considered and ultimately chose to employ, as well as the methodology we decided on for testing [UI elements](#automatic-and-manual-testing). After that, we present the [User Test](#user-test) we held in the last weeks of the project.
 
 ## Automatic and Manual Testing
 
